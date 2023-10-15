@@ -1,0 +1,10 @@
+-- criacao de app em expo
+-- limpeza basica para zerar o app
+-- instalar stack navigation
+** expo install @react-navigation/native
+** npx expo install react-native-screens react-native-safe-area-context
+** npm install @react-navigation/native-stack
+
+ROTAS
+-- crie pasta src>routes>app.routes(rotas de dentro do app) e src>routes>auth.routes(rotas de login e cadastro)
+-- e também crie src>routes> index.tsx que vai organizar em que momento app ou auth serão renderizados
