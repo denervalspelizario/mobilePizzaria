@@ -8,3 +8,5 @@
 ROTAS
 -- crie pasta src>routes>app.routes(rotas de dentro do app) e src>routes>auth.routes(rotas de login e cadastro)
 -- e também crie src>routes> index.tsx que vai organizar em que momento app ou auth serão renderizados
+-- depois que criar as rotas em index.tsx de routes faça o loading de carregamento
+-- ir a pagina sign e estilizar e criar a logica de login
