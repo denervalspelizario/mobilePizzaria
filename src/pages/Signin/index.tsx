@@ -7,8 +7,15 @@ export default function SignIn() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  console.log(password)
-  console.log(email)
+  // função de login
+  function handlelogin(){
+
+    if(email === '' || password === ''){
+      return
+    }
+
+    console.log("Email digitado: " + email + " - Senha digitada: " + password)
+  }
 
   return (
     <View style={styles.container}>
@@ -34,7 +41,10 @@ export default function SignIn() {
           onChangeText={(text) => setPassword(text)}
         />
       
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity 
+          style={styles.button}
+          onPress={handlelogin}
+        >
           <Text style={styles.buttonText}>Acessar</Text>
         </TouchableOpacity>
       </View>

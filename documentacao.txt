@@ -10,3 +10,11 @@ ROTAS
 -- e também crie src>routes> index.tsx que vai organizar em que momento app ou auth serão renderizados
 -- depois que criar as rotas em index.tsx de routes faça o loading de carregamento
 -- ir a pagina sign e estilizar e criar a logica de login
+
+CONTEXTO
+
+** instalar o async storage https://react-native-async-storage.github.io/async-storage/docs/install/
+** npx expo install @react-native-async-storage/async-storage
+-- criar contexto de login src>contexts>AuthContext.tsx
+-- depois de criar o contexto  em app.tsx adicione o AuthProvider para abraçar as rotas e repassar os dados de login a elas
+
